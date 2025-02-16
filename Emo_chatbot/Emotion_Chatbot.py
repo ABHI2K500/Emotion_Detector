@@ -1,8 +1,8 @@
 import streamlit as st
+import cv2
 from deepface import DeepFace
 import groq 
 import time
-import cv2
 
 groq_api_key = "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"
 client = groq.Client(api_key=groq_api_key)
